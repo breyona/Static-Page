@@ -1,0 +1,336 @@
+body{
+    background: #dedede;
+    font-family:  Arial Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.dropdown{
+    margin:0  auto;
+}
+nav{
+    height: 80px;
+    background: rgb(41, 39, 39);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    position: fixed;
+}
+
+.logo{
+    padding: 0;
+    width: 79px;
+    height: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    background:rgb(41, 39, 39);
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    z-index: 3;
+    
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    
+    
+}
+
+nav ul li a:hover{
+    background: rgb(58, 57, 57)
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+    color: white;
+    
+}
+
+nav ul li:hover > ul{
+    display: block;
+    
+    
+    
+}
+nav ul ul li{
+    width: 550px;
+    float: none;
+    display: list-item;
+    position: relative;
+    ;
+}
+.body{
+    padding: 0 20px;
+}
+.body img{
+    width:100%;
+    max-width: 999vh;
+    
+    
+}
+
+.sub{
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    
+}
+.sub2{
+    font-size: 15px;
+}
+
+.sub3{
+    background-color:#348DB9;
+    padding: 6px;
+}
+.sub3:hover{
+    background-color: lightskyblue;
+}
+
+.sub4{
+    background-color: red;
+    padding: 6px;
+}
+.sub4:hover{
+    background-color: darkred
+}
+
+h1, h2, h3, h4, p{
+    margin-bottom: 10px;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section:nth-of-type(1){
+    background-image: url("https://media2.giphy.com/media/9D1evE08UbTHUHjv5y/200.webp?cid=790b76119b6e69269017a97fb245cba14d50fea439c5ccfa&rid=200.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+
+.nav1{
+    z-index: 3;
+}
+
+.title1{
+    color: white;
+    background-color: black;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 35px;
+    opacity: .8;
+    text-align:  left;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+
+.paragraph1{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    position: absolute;
+    top: 26%;
+    left: 65%;
+    font-size: 40px;
+}
+ul{
+    color: white;
+    
+    
+}
+
+.title2{
+    text-align: center;
+    color: rgb(9, 123, 161);
+    font-size: 60px;
+}
+
+.anotherTitle{
+    position: relative;
+    bottom: 150px;
+    font-size: 100px;
+    color: rgb(20, 110, 139);
+
+
+
+}
+.card{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    
+    
+}
+
+.card2{
+    position: absolute;
+    left: 30px;
+    background-color: white;
+    top: 50%;
+    
+}
+
+.card3{
+    position:absolute;
+    background-color: white;
+    top: 50%;
+    
+    
+}
+
+.card-title1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-title3{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-title2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn{
+    position: relative;
+    
+    top: 100px;
+    left: 70px;
+    background-color: red;
+}
+
+
+.btn:hover{
+    position: relative;
+    background-color:gray;
+}
+
+.two{
+    background-color: #DEDEDE;
+}
+
+
+.logo2{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+    width: 40vh;
+    height: 40vh;
+    right: 110%;
+    
+}
+
+div.content{
+    position: relative;
+    height: 50px;
+    width: 280px;
+    float: left;
+    
+}
+
+.anotherTitle2{
+    color: #348DB9;
+    width: 450px;
+}
+.anotherone{
+    width: 450px;
+}
+
+.video2{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+    width: 40vh;
+    height: 40vh;
+    right: 110%;
+    
+}
+
+div.content1{
+    position: relative;
+    height: 50px;
+    width: 280px;
+    float: left;
+}
+
+.anotherTitle3{
+    color: #348DB9;
+    width: 450px;
+    font-size: 120px;
+    font-weight: bold;
+    position: relative;
+    bottom: 65px;   
+}
+
+.anotherone3{
+    position: relative;
+    width: 450px;
+    bottom: 50px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #E33E42;
+    width: 520px;
+    height: 80px;
+    color: white;
+    padding: 25px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  div.container{
+    position: relative;
+    height: 50px;
+    width: 280px;
+    float: left;
+}
+
+.bottomP{
+    position: relative;
+    width: 450px;
+    left: 350px;
+    font-weight: bold;
+
+}
